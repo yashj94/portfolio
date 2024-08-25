@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#experience" style="--i:2;">Experience</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+    <div id="particles-js"></div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Yash Jagtap</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab officia placeat consequuntur quod animi
+                minima itaque facilis fuga quisquam vitae!</p>
+
+            <div class="social-media">
+                <a href="#" style="--i:7;"><i class="bx bxl-facebook"></i></a>
+                <a href="#" style="--i:8;"><i class="bx bxl-twitter"></i></a>
+                <a href="#" style="--i:9;"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#" style="--i:10;"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <a href="" class="btn" id="resumeButton">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profile.jpeg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- experience Section -->
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <p>Here are some of the skills I possess:</p>
+
+        <div class="experience-cards">
+            <div class="card">
+                <h3>Front-End Developer</h3>
+                <h4>Company Name</h4>
+                <p>Developed dynamic and responsive web applications using HTML, CSS, and JavaScript. Implemented
+                    interactive features and optimized performance for better user experience.</p>
+            </div>
+
+            <div class="card">
+                <h3>UI/UX Designer</h3>
+                <h4>Another Company</h4>
+                <p>Designed user interfaces and user experiences for various applications. Created wireframes,
+                    prototypes, and conducted user research to ensure a seamless and intuitive user experience.</p>
+            </div>
+
+            <div class="card">
+                <h3>Project Manager</h3>
+                <h4>Yet Another Company</h4>
+                <p>Managed projects from inception to completion, including planning, execution, and delivery.
+                    Coordinated with cross-functional teams and ensured projects were completed on time and within
+                    budget.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="contact" id="skills">
+        <h2>My Skills</h2>
+        <p>Here are some of the skills I possess:</p>
+        <div class="chips-container">
+            <div class="chip">
+                HTML5
+                <div class="tooltip">
+                    <ul>
+                        <li>Portfolio Website</li>
+                        <li>Blog Platform</li>
+                        <li>Company Landing Page</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                CSS3
+                <div class="tooltip">
+                    <ul>
+                        <li>Responsive Web Design</li>
+                        <li>Custom Animations</li>
+                        <li>UI Component Library</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                JavaScript
+                <div class="tooltip">
+                    <ul>
+                        <li>Interactive Quiz</li>
+                        <li>Expense Tracker</li>
+                        <li>Snake Game</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                Angular 17
+                <div class="tooltip">
+                    <ul>
+                        <li>Employee Management System</li>
+                        <li>Dynamic Dashboard</li>
+                        <li>Inventory Tracker</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                Responsive Web Design
+                <div class="tooltip">
+                    <ul>
+                        <li>Portfolio Website</li>
+                        <li>E-commerce Platform</li>
+                        <li>Blog Platform</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                Tailwind CSS
+                <div class="tooltip">
+                    <ul>
+                        <li>Admin Dashboard</li>
+                        <li>Marketing Website</li>
+                        <li>Portfolio Website</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chip">
+                Version Control (Git)
+                <div class="tooltip">
+                    <ul>
+                        <li>Open Source Contribution</li>
+                        <li>Team Project Management</li>
+                        <li>Personal Projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="skills" id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I possess:</p>
+        <div class="chips-container">
+            <div class="chip">
+                JavaScript CRUD Operation
+            </div>
+
+            <div class="chip">
+                Snake Game
+            </div>
+
+            <div class="chip">
+                Expense Calculator
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, feel free to reach out through the following channels:</p>
+        <ul>
+            <li>Email: yash.jagtap@example.com</li>
+            <li>Phone: +123 456 7890</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/yash-jagtap"
+                    target="_blank">linkedin.com/in/yashjagtap</a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
